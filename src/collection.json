@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "rename": {
+      "factory": "./rename",
+      "schema": "./rename/schema.json"
+    },
+    "move": {
+      "factory": "./move",
+      "schema": "./move/schema.json"
+    }
+  }
+}
